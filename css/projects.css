@@ -1,0 +1,108 @@
+.audio-text {
+  text-align-last: justify;
+}
+
+.projects {
+  position: relative;
+  top: 90px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 130px;
+}
+
+.apply {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 32px;
+  border: 2px solid #da2326;
+}
+
+.card-wrapper,
+.card-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-box i {
+  color: #972e38;
+  min-height: 360px;
+}
+
+.card-box p {
+  min-height: 155px;
+}
+
+#poem {
+  text-align: center;
+}
+
+.justify-all {
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: justify;
+}
+
+.cta-btn {
+  border-radius: 100px !important;
+  min-width: 175px !important;
+}
+
+.card-img {
+  height: 350px;
+}
+
+.card-img img {
+  height: 100%;
+}
+
+.form_mailing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_mailing > * {
+  min-height: 36px;
+}
+
+.embed-responsive {
+  height: 300px;
+}
+
+#soundcloud_embeds {
+  gap: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .apply {
+    margin-bottom: 4rem !important;
+  }
+
+  .apply h4 {
+    font-size: 18px;
+  }
+
+  .card-img {
+    min-height: unset;
+  }
+
+  .card-box i {
+    min-height: unset;
+  }
+
+  .card-box p {
+    min-height: unset;
+  }
+
+  .cta-btn {
+    width: 100% !important ;
+  }
+
+  .form_mailing .w-50,
+  button {
+    width: 100% !important;
+  }
+}
