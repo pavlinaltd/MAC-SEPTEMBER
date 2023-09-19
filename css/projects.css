@@ -1,12 +1,7 @@
 .audio-text {
 	text-align-last: justify;
 }
-.banner-bg {
-	background-image: url('../assets/images/banner-background.webp');
-}
-.btn-bg {
-	background: linear-gradient(0deg, #ffd034, #d82126);
-}
+
 .btn-bdr {
 	border: 1px solid #d82126;
 }
@@ -78,6 +73,9 @@
 
 #soundcloud_embeds {
 	gap: 2rem;
+}
+.sc-ml {
+	margin-left: 9rem;
 }
 
 @media screen and (max-width: 767px) {

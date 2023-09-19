@@ -1,7 +1,24 @@
 .move {
-  height: 300px !important;
+	height: 300px !important;
 }
 
 #gotse {
-  background-color: black;
+	background-color: black;
+}
+/* Custom CSS for Highlighted Text */
+.highlight-text {
+	color: #7a7b7b; /* Change to your desired highlight color */
+	font-weight: bold;
+}
+
+/* Custom CSS for Blockquote */
+.blockquote {
+	font-style: italic;
+	margin: 0; /* Remove default margin */
+	padding: 0; /* Remove default padding */
+	color: #555; /* Change to your desired blockquote text color */
+}
+.mov-img {
+	width: 300px;
+	height: 600px;
 }

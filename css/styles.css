@@ -1,68 +1,74 @@
 body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
 }
 
 .main_wrapper {
-  position: relative;
-  top: 90px;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 130px;
+	position: relative;
+	top: 90px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 130px;
 }
 
 .size-23 {
-  width: 300px;
-  position: relative;
-  left: 200px;
+	width: 300px;
+	position: relative;
+	left: 200px;
 }
 .size-24 {
-  position: relative;
-  left: -60px;
+	position: relative;
+	left: -60px;
+}
+.banner-bg {
+	background-image: url('../assets/images/banner-2.png');
+}
+.btn-bg {
+	background: linear-gradient(0deg, #ffd034, #d82126);
 }
 @media screen and (max-width: 1199px) {
-  .size-23 {
-    width: 300px;
-    position: relative;
-    left: 150px;
-  }
-  .size-24 {
-    position: relative;
-    left: -20px;
-  }
+	.size-23 {
+		width: 300px;
+		position: relative;
+		left: 150px;
+	}
+	.size-24 {
+		position: relative;
+		left: -20px;
+	}
 }
 @media screen and (max-width: 991px) {
-  .size-23 {
-    width: 300px;
-    position: relative;
-    left: 90px;
-  }
-  .size-24 {
-    position: relative;
-    left: 40px;
-  }
+	.size-23 {
+		width: 300px;
+		position: relative;
+		left: 90px;
+	}
+	.size-24 {
+		position: relative;
+		left: 40px;
+	}
 }
 @media screen and (max-width: 767px) {
-  .size-23 {
-    width: 300px;
-    position: relative;
-    left: 40px;
-  }
-  .size-24 {
-    position: relative;
-    left: 80px;
-  }
+	.size-23 {
+		width: 300px;
+		position: relative;
+		left: 40px;
+	}
+	.size-24 {
+		position: relative;
+		left: 80px;
+	}
 }
 @media screen and (max-width: 543px) {
-  .size-24 {
-    position: relative;
-    left: -110px;
-    top: 50px;
-  }
+	.size-24 {
+		position: relative;
+		left: -110px;
+		top: 50px;
+	}
 }
 .hover:hover {
-  color: grey;
+	color: grey;
 }
 /*
 .txtsize {
@@ -105,146 +111,146 @@ body {
   }*/
 
 .imgposition {
-  position: relative;
-  left: 47px;
-  top: -1px;
+	position: relative;
+	left: 47px;
+	top: -1px;
 }
 
 .add {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  font-family: Lato, sans-serif;
-  background: #333;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	font-family: Lato, sans-serif;
+	background: #333;
 }
 
 .img5 {
-  height: 200px;
+	height: 200px;
 }
 
 /*Dedicated to the promotion and affirmation
 of Macedonian cultural heritage. section*/
 .mable {
-  font-size: 26pt;
+	font-size: 26pt;
 }
 .dedicated {
-  position: relative;
-  top: -20px;
+	position: relative;
+	top: -20px;
 }
 
 /*Our main objective is to introduce to people worldwide the rich traditions, language, literature, and art of a nation whose diverse cultural threads are interwoven into the ethnic tapestries of the world. section*/
 .pine {
-  font-size: 20pt;
+	font-size: 20pt;
 }
 /*Title img Arts hero image*/
 @media only screen and (min-width: 0px) {
-  .card-img-top {
-    position: relative;
-    z-index: 2;
-    height: auto;
-    width: auto;
-    transform: translateY(0);
-    transition: 0.5s;
-  }
+	.card-img-top {
+		position: relative;
+		z-index: 2;
+		height: auto;
+		width: auto;
+		transform: translateY(0);
+		transition: 0.5s;
+	}
 }
 
 @media only screen and (max-width: 995px) {
-  .mable {
-    font-size: 20pt;
-  }
-  .pine {
-    font-size: 15pt;
-  }
+	.mable {
+		font-size: 20pt;
+	}
+	.pine {
+		font-size: 15pt;
+	}
 }
 
 @media only screen and (max-width: 992px) {
-  .pose {
-    position: relative;
-    top: -100px;
-  }
+	.pose {
+		position: relative;
+		top: -100px;
+	}
 }
 
 .embed-responsive {
-  width: 600px;
+	width: 600px;
 }
 
 .heading-project {
-  margin: 24px 0;
-  text-transform: uppercase;
-  text-align: center;
+	margin: 24px 0;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 #poster {
-  object-position: bottom;
-  height: 450px;
-  object-fit: cover;
-  box-shadow: 0px 0px 10px 0px #888888;
+	object-position: bottom;
+	height: 450px;
+	object-fit: cover;
+	box-shadow: 0px 0px 10px 0px #888888;
 }
 
 .stack {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .stack > * {
-  margin: 1.5rem 0 0 0;
+	margin: 1.5rem 0 0 0;
 }
 
 .stack > :last-child {
-  margin: 0 0 1.5rem 0;
+	margin: 0 0 1.5rem 0;
 }
 
 .wrapper__cta {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .wrapper__cta > .button {
-  margin: auto;
+	margin: auto;
 }
 
 .border__light {
-  border: 1px solid lightgray;
+	border: 1px solid lightgray;
 }
 
 .btn {
-  border-radius: 100px;
+	border-radius: 100px;
 }
 
 .home-card-text p {
-  min-height: 225px;
+	min-height: 225px;
 }
 
 .section__main {
-  position: relative;
-  top: 90px;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 130px;
+	position: relative;
+	top: 90px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 130px;
 }
 
 .wrapper__cards {
-  justify-content: center;
+	justify-content: center;
 }
 @media screen and (max-width: 767px) {
-  .home-card-text p {
-    min-height: unset;
-  }
+	.home-card-text p {
+		min-height: unset;
+	}
 
-  #poster {
-    height: unset;
-  }
+	#poster {
+		height: unset;
+	}
 }
 
 .subheading_in-dev {
-  background-color: #efefef;
-  margin: auto;
-  padding: 0.5rem;
+	background-color: #efefef;
+	margin: auto;
+	padding: 0.5rem;
 }
 
 .object-fit-contain {
-  object-fit: contain !important;
+	object-fit: contain !important;
 }
