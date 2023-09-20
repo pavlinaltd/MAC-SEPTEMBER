@@ -14,6 +14,7 @@
 /* Custom CSS for Blockquote */
 .blockquote {
 	font-style: italic;
+	font-size: 1rem;
 	margin: 0; /* Remove default margin */
 	padding: 0; /* Remove default padding */
 	color: #555; /* Change to your desired blockquote text color */
@@ -21,4 +22,7 @@
 .mov-img {
 	width: 300px;
 	height: 600px;
+}
+.fs-5 {
+	font-size: 1.1rem;
 }
