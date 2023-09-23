@@ -27,6 +27,9 @@ body {
 .btn-bg {
 	background: linear-gradient(0deg, #ffd034, #d82126);
 }
+.section-bg-gray {
+	background-color: #efefef;
+}
 @media screen and (max-width: 1199px) {
 	.size-23 {
 		width: 300px;
