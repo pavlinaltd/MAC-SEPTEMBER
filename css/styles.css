@@ -259,3 +259,6 @@ of Macedonian cultural heritage. section*/
 .object-fit-contain {
 	object-fit: contain !important;
 }
+.embed-responsive {
+	width: 325px;
+}
