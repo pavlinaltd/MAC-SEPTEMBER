@@ -24,7 +24,7 @@ body {
 .banner-bg {
 	background-image: url('../assets/images/banner-2.webp');
 	background-position: top;
-	height: 500px;
+	height: 400px;
 }
 .btn-bg {
 	background: linear-gradient(0deg, #ffd034, #d82126);
