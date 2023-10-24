@@ -17,6 +17,9 @@
 	top: 90px;
 	min-height: 100vh;
 }
+.cufoot {
+	margin-top: 90px;
+}
 
 @media screen and (max-width: 600px) {
 	.contact-wrapper {
