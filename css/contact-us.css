@@ -20,6 +20,9 @@
 .cufoot {
 	margin-top: 90px;
 }
+.google-map {
+	height: 500px !important;
+}
 
 @media screen and (max-width: 600px) {
 	.contact-wrapper {
@@ -31,9 +34,5 @@
 
 	.cid-rnE7nvNNDz {
 		padding-bottom: 90px;
-	}
-
-	.google-map {
-		height: 500px !important;
 	}
 }
