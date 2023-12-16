@@ -21,7 +21,9 @@
 	margin-top: 90px;
 }
 .google-map {
-	height: 500px !important;
+	display: flex;
+	justify-content: center;
+	max-height: 300px;
 }
 
 @media screen and (max-width: 600px) {

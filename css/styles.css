@@ -26,6 +26,9 @@ body {
 	background-position: top;
 	height: 300px;
 }
+.btn-bdr {
+	border: 1px solid #d82126;
+}
 .btn-bg {
 	background: linear-gradient(0deg, #ffd034, #d82126);
 }
